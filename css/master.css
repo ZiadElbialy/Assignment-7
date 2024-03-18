@@ -10,12 +10,16 @@
     position: relative;
     font-family: "Petrona Regular", sans-serif;
     scroll-behavior: smooth;
-    scroll-padding-top: 20px;
+    scroll-padding-top: 80px;
 }
 
 .container {
     width: 100%;
     max-width: 1000px;
+}
+
+.padding {
+    padding: 0 10px;
 }
 
 header {
@@ -58,7 +62,7 @@ header nav .links li a {
 main {
     display: flex;
     justify-content: center;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     margin-bottom: 20px;
 }
 
